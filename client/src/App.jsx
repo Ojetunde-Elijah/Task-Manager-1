@@ -17,7 +17,7 @@ function App() {
     fetchTasks();
   }, []);
 
-  let elijah = "Unused"
+  // let elijah = "Unused"
 
   const fetchTasks = async () => {
     try {
