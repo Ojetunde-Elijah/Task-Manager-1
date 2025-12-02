@@ -17,6 +17,8 @@ function App() {
     fetchTasks();
   }, []);
 
+  let elijah = "Unused"
+
   const fetchTasks = async () => {
     try {
       setLoading(true);
